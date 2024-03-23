@@ -1,0 +1,469 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+
+  li {
+    float: right;
+  }
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    background-color: #111;
+  }
+
+  body {
+      background-color: #E7E8D1;
+   /* arata scrollbar */
+      margin-bottom: 100px;
+  }
+
+  #titlu {
+      margin-top: 100px;
+      margin-left: 20px;
+      background-color: #B85042;
+  }
+  .titlu {
+      margin-top: 0px;
+      background-color: #B85042;
+      padding-bottom: 10px;
+      color: #fff;
+  }
+
+  #undertitlu {
+      margin-left: 50px;
+      margin-top: auto;
+      padding-top: 25px;
+  }
+
+  .undertitlu {
+    padding-top: 10px;
+    padding-bottom: 0.5cm;
+    font-size: 20px;
+    border-style: outset;
+  }
+
+  /*sectiune text*/
+
+  .paragraftitlu {
+      margin-left: 8%;
+      padding-top: 100px;
+  }
+
+  .paragraf1 {
+      margin-top: 1%;
+      margin-left: 10%;
+      margin-right: 10%;
+      font-size: 35px;
+      text-indent: 45px;
+
+  }
+
+.intrasectiuneimagine {
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+}
+
+.intrasectiuneimagine img:first-child { border-radius: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
+}
+
+.continut{
+  margin-top: 200px;
+}
+
+#ziua1 {
+  margin-top: 50px;
+  font-size: 50px;
+  width: 50%;
+  color: #fff;
+
+}
+
+.ziua1text {
+  padding-top: 35px;
+  margin-left: 50px;
+  font-size: 30px;
+  width: 50%;
+  margin: 0 auto
+
+}
+
+#ziua2 {
+  margin-top: 50px;
+  font-size: 50px;
+  width: 50%;
+
+}
+
+.ziua2text {
+  padding-top: 35px;
+  margin-left: 50px;
+  font-size: 30px;
+  width: 50%;
+  margin: 0 auto
+}
+
+#ziua3 {
+  padding-top: 50px;
+  font-size: 50px;
+  width: 50%;
+
+}
+
+.ziua3text {
+  padding-top: 35px;
+  margin-left: 50px;
+  font-size: 30px;
+  width: 50%;
+  margin: 0 auto
+}
+
+#ziua4 {
+  padding-top: 10px;
+  font-size: 50px;
+  width: 50%;
+}
+
+.ziua4text {
+  padding-top: 10px;
+  padding-bottom: 25px;
+  margin-left: 50px;
+  font-size: 30px;
+  width: 50%;
+  margin: 0 auto
+}
+
+.Z1 {
+  padding-top: 50px;
+  font-size: 50px;
+  width: 50%;
+  background-image: url(https://images.pexels.com/photos/45241/tent-camp-night-star-45241.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  border-radius: 25px;
+  margin-left: 25%;
+  color: #fff;
+  padding-bottom: 2%;
+}
+
+.Z2 {
+  padding-top: 50px;
+  font-size: 50px;
+  width: 50%;
+  background-image: url(https://images.pexels.com/photos/939723/pexels-photo-939723.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  border-radius: 25px;
+  margin-left: 25%;
+  color: white;
+  padding-bottom: 2%;
+
+}
+
+.Z3 {
+  padding-top: 50px;
+  font-size: 50px;
+  width: 50%;
+  background-image: url(https://images.pexels.com/photos/1328876/pexels-photo-1328876.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  border-radius: 25%;
+  margin-left: 25%;
+  color: #fff;
+  padding-bottom: 2%;
+}
+
+.Z4 {
+  padding-top: 50px;
+  font-size: 50px;
+  width: 50%;
+  background-image: url(https://images.pexels.com/photos/4825743/pexels-photo-4825743.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  border-radius: 25px;
+  margin-left: 25%;
+  color: #fff;
+  padding-bottom: 2%;
+}
+
+.titluevenimente {
+  margin: auto;
+  width: 50%;
+  font-size: 40px;
+}
+
+/*-----------Footer-------------*/
+
+.footer {
+  width: 100vw;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  background-color: #A7BEAE;
+
+  color: #fff;
+  font-size: 20px;
+  font-weight: 100;
+
+  letter-spacing: 1px;
+
+  line-height: 1.6;
+  height: 60px;
+
+  position: fixed;
+  bottom: 0;
+}
+
+.footer__element {
+  flex: 1;
+  text-align: center;
+}
+
+/*-----------End of Footer-------------*/
+
+/* continut contact */
+
+.continutcontact {
+  margin-left: 35%;
+  padding-top: 150px;
+  font-size: 35px;
+}
+
+#mediacontact {
+  padding-top: 25px;
+}
+
+#nrtelefon {
+  color:green;
+}
+
+#nremail{
+  color: green;
+}
+
+#nrlocatie{
+  color: green;
+}
+
+#locatie_sediu{
+  color: green;
+}
+
+
+/* continut pagina despre */
+
+.continutdesprenoi {
+  margin-left: 8%;
+  margin-right: 7%;
+  font-size: 30px;
+  padding-top: 3%;
+  text-indent: 2%;
+  background-image: url('https://images.pexels.com/photos/699558/pexels-photo-699558.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+  border-radius: 25px;
+}
+
+#desprenoi {
+  color: #fff;
+  padding-left: 1%;
+}
+
+.misiune {
+  margin-left: 8%;
+  margin-right: 7%;
+  font-size: 30px;
+  padding-top: 3%;
+  text-indent: 2%;
+  text-justify: auto;
+  padding-top: 2%;
+  background-color: green;
+  border-radius: 25px;
+}
+
+#misiune1 {
+  padding-left: 1%;
+  color: #fff;
+}
+
+
+.valori {
+  margin-left: 8%;
+  margin-right: 7%;
+  font-size: 30px;
+  padding-top: 3%;
+  text-indent: 2%;
+  text-justify: auto;
+  background-image: url(https://images.pexels.com/photos/1061640/pexels-photo-1061640.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  border-radius: 25px;
+}
+
+#valori1 {
+  padding-left: 1%;
+}
+
+/* acasa sectiuni text imagine */
+
+.sectiune1 {
+  margin-left: 5%;
+  margin-right: 4%;
+  padding-top: 4%;
+}
+
+.textsectiune1 {
+  float: left;
+  min-width: 0%;
+  max-width: 45%;
+  font-size: 50px;
+}
+
+.imaginesectiune1 {
+  float: right;
+  min-width: 55%;
+  max-width: 100%;
+}
+
+
+
+
+.sectiune2 {
+  margin-left: 5%;
+  margin-right: 4%;
+  padding-top: 4%;
+  align-self: center;
+  padding-bottom: 10px;
+}
+
+.textsectiune2 {
+  float: right;
+  min-width: 55%;
+  max-width: 100%;
+  font-size: 50px;
+  margin-left: 50%;
+}
+
+.imaginesectiune2 {
+  float: left;
+  min-width: 0%;
+  max-width: 45%;
+}
+
+#paragsec2titlu {
+  padding-top: 15%;
+}
+
+
+
+
+
+
+body::-webkit-scrollbar {
+  width: 1em;
+}
+
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
+
+.containerharta {
+  padding-top: 10%;
+  width: 40%;
+  margin: 0 auto;
+}
+
+.wrapperformular {
+  padding-top: 10%;
+  width: 40%;
+  margin: 0 auto;
+}
+
+.wrapperformular .formular {
+  padding-top: 10%;
+  width: 40%;
+  margin: 0 auto;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+
+input[type=text]:focus {
+  border: 3px solid #555;
+}
+
+
+
+input[type=email] {
+  width: 100%;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url('https://cdn-icons-png.flaticon.com/512/18/18609.png');
+  background-position: left;
+  background-size: 5%;
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+  background-color: #04AA6D;
+  border: ;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button:hover {
+      background-color:#002ead;
+      transition: 0.7s;
+  }
+
+.zonasociala_wrapper{
+  padding-top: 7%;
+  padding-bottom: 7%;
+}
+
+.sectiune1 {
+  padding-top: 5%;
+}
+
+.sectiune2 {
+  padding-top: 5%;
+}
+
+.sectiune3 {
+  padding-top: 5%;
+}
+
+.wrapper_despre {
+  padding-top: 15%;
+}
