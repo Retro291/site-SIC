@@ -1,1 +1,1 @@
-# site-SIC
+# site-SIC - Echipa 1
